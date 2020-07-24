@@ -1,0 +1,19 @@
+{
+  "name": "workshop-es6",
+  "version": "1.0.0",
+  "description": "Workshop sobre ES6+",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sephh/workshop-es6.git"
+  },
+  "author": "greg.almeidasilva@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sephh/workshop-es6/issues"
+  },
+  "homepage": "https://github.com/sephh/workshop-es6#readme"
+}
