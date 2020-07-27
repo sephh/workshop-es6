@@ -1,5 +1,7 @@
-# Rest operator
+# Promise
 
-Foi criado a princípio para resolver para resolver os argumentos das funções, mas posteriormente deram mais poderes jedis para ele.
+As promises não são tão novas, mas vale a pena falar sobre, pois elas fazem parte do nosso dia a dia.
 
-Execute o arquivo `rest-operator` e veja o resultado.
+Abordei a criação delas e alguns métodos utilizados como `Promise.all`, `Promise.race` e `Promise.allSettled`.
+
+Execute o arquivo `promise.js` para ver o resultado.
