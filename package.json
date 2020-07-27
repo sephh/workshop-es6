@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sephh/workshop-es6/issues"
   },
-  "homepage": "https://github.com/sephh/workshop-es6#readme"
+  "homepage": "https://github.com/sephh/workshop-es6#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0"
+  }
 }
