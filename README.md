@@ -1,7 +1,5 @@
-# Promise
+# Async / Await
 
-As promises não são tão novas, mas vale a pena falar sobre, pois elas fazem parte do nosso dia a dia.
+É um sintaxe mais legível para os resultados das promises.
 
-Abordei a criação delas e alguns métodos utilizados como `Promise.all`, `Promise.race` e `Promise.allSettled`.
-
-Execute o arquivo `promise.js` para ver o resultado.
+Execute o arquivo `async-await` e veja o resultado.

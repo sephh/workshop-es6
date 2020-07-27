@@ -1,3 +1,5 @@
+'use strict';
+
 const getItem = (name) => {
     return new Promise((resolve, reject) => {
         console.log('Vou emitir um valor em 1 segundo...');
@@ -12,13 +14,13 @@ const getItem = (name) => {
     });
 }
 
-getItem('Bolo')
-    .then((item) => {
-        console.log(item);
-    })
-    .catch((err) => {
-        console.error(err);
-    });
+// getItem('Bolo')
+//     .then((item) => {
+//         console.log(item);
+//     })
+//     .catch((err) => {
+//         console.error(err);
+//     });
 
 // const promises = [
 //     getItem('Picles'),
@@ -51,3 +53,7 @@ getItem('Bolo')
 //     .catch(()=>{
 //         console.error('ERROR: Aconteceu um erro em uma das promises');
 //     });
+
+module.exports = {
+    getItem
+}
