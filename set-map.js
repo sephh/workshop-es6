@@ -1,14 +1,7 @@
-# Map e Set
+/** MAP * */
 
-As collections Map e Set foram adicionadas e agora podemos tirar proveito dos seus métodos. E como elas são iterables você também pode usar algumas features já conhecidas, como o rest operator.
+console.log('*** MAP *** \n');
 
-## Map
-
-No Map guardamos itens relacionados a chaves únicas e a ordem dos itens não é garantida.
-
-Exemplo de Map e alguns métodos interessantes.
-
-```
 const pickle = {id: 1, taste: 'delicious'};
 const picklesMap = new Map();
 
@@ -20,15 +13,11 @@ console.log('Map item ',picklesMap.get(pickle.id)); // retorna o valor de pickle
 console.log('Map array ', [...picklesMap]); // retorna um array de arrays onde a primeira posição de cada um é a chave e a segunda é o valor
 
 picklesMap.delete(pickle.id); // remove o item relacionado com essa chave
-```
 
-## Set
+/** SET * */
 
-No Set todos os itens são únicos e a ordem de inserção dos itens é respeitada.
+console.log('\n*** SET *** \n');
 
-Exemplo de Set e alguns métodos interessantes.
-
-```
 const picklesSet = new Set();
 
 picklesSet.add(pickle);
@@ -45,4 +34,3 @@ for (let p of picklesSet) {
 }
 
 picklesSet.delete(pickle); // remove o item do Set
-```
