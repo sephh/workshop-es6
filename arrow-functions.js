@@ -1,3 +1,5 @@
+// global.name = 'gincobiloba';
+
 function createObject() {
     return {
         name: 'Meu objeto',
@@ -15,6 +17,8 @@ function createObject() {
 }
 
 const myObject = createObject();
+
+console.log('*** console dos métodos do objeto ***\n');
 
 myObject.log('log pelo myObject');
 myObject.arrowLog('arrow pelo myObject');
@@ -45,6 +49,8 @@ class Pickles {
 }
 
 const pickles = new Pickles();
+
+console.log('\n*** console dos métodos da classe ***\n');
 
 pickles.log('log pelo Pickles');
 pickles.logExplicitBind('logExplicitBind pelo Pickles');
